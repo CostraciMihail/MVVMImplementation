@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThirdViewController" customModule="MVVM_Implementation">
+            <connections>
+                <outlet property="view" destination="uNQ-Ya-dob" id="ggK-0P-kyN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="uNQ-Ya-dob">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPq-zZ-yfA">
+                    <rect key="frame" x="103" y="86" width="168" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="hbx-TZ-WKr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.34507976689999997" blue="0.3184395458" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="cPq-zZ-yfA" firstAttribute="leading" secondItem="uNQ-Ya-dob" secondAttribute="leadingMargin" constant="95" id="GLA-ke-joR"/>
+                <constraint firstAttribute="trailingMargin" secondItem="cPq-zZ-yfA" secondAttribute="trailing" constant="96" id="gvH-MD-d9P"/>
+                <constraint firstItem="cPq-zZ-yfA" firstAttribute="top" secondItem="uNQ-Ya-dob" secondAttribute="top" constant="86" id="nf2-E5-r4F"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

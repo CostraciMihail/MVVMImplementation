@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="MVVM_Implementation">
+            <connections>
+                <outlet property="view" destination="mbk-cB-q17" id="GJc-r4-G6h"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="mbk-cB-q17">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqB-iN-rHE">
+                    <rect key="frame" x="114" y="275" width="146" height="30"/>
+                    <state key="normal" title="Next"/>
+                    <connections>
+                        <action selector="nextButtonPressed:" destination="-2" eventType="touchUpInside" id="3P0-PB-P9B"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.8343537245" green="1" blue="0.32114093440000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="SqB-iN-rHE" firstAttribute="top" secondItem="mbk-cB-q17" secondAttribute="top" constant="275" id="8zd-ZM-A1Q"/>
+                <constraint firstItem="SqB-iN-rHE" firstAttribute="leading" secondItem="mbk-cB-q17" secondAttribute="leadingMargin" constant="106" id="TK3-XT-niT"/>
+                <constraint firstAttribute="trailingMargin" secondItem="SqB-iN-rHE" secondAttribute="trailing" constant="107" id="s7z-Mt-PpD"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
